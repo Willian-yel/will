@@ -1,0 +1,66 @@
+.willi {
+    background-color: antiquewhite;
+
+}
+.taylor {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 200px;
+    color:rgb(52, 37, 135);
+    font-size: large;
+    font-size: 20px;
+}
+.arenas {
+    background-color:rgb(26, 113, 189);
+    color:rgb(0, 0, 0);
+    
+    width: 400px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.pietabla{
+    font-size: large;
+    width: 10pc;
+    height: 100px;
+}
+button{
+    width: 200px;
+    margin: 0 auto;
+
+
+}
+.titulo{
+       max-width: 800px; 
+    margin: 50px auto; 
+    padding: 2px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #cbe010;
+
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color:rgb(130, 168, 255);
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select {
+            padding: 5px;
+            margin-top: 5px;
+            background-color: rgb(243, 237, 127);;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: rgb(163, 127, 152);
+        }
+        #resultado {
+            margin-top: 30px;
+        }
+        
+    

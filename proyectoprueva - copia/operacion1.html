@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cálculo de Semillas</title>
+    <link rel="stylesheet" href="style2.css"> <!-- Enlaza tu hoja de estilos -->
+  
+</head>
+<body>
+
+    <h2>Calculadora de Semillas para Terreno🌽</h2>
+
+    <td><form onsubmit="mostrar(); return false;">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="largo">Largo del terreno (m):</label>
+        <input type="number" id="largo" step="0.01" required>
+
+        <label for="ancho">Ancho del terreno (m):</label>
+        <input type="number" id="ancho" step="0.01" required>
+
+        <label for="tipo">Tipo de terreno:</label>
+        <select id="tipo" required>
+            <option value="cuadrado">Cuadrado</option>
+            <option value="rectangulo">Rectángulo</option>
+            <option value="triangulo">Triángulo</option>
+            <option value="irregular">Irregular</option>
+        </select>
+
+        <button type="submit">Calcular</button>
+    </form>
+
+    <div id="resultado"></div>
+  </td>
+
+
+  <script src="operacion1.js"></script>
+
+    
+    </table>
+      
+    </form> 
+    
+      
+</body>
+</html>

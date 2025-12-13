@@ -1,0 +1,43 @@
+/* Estilos para los botones */
+button {
+
+    padding: 0;
+    border: none;
+}
+
+/* Ajusta el tamaño de las imágenes dentro de los botones */
+button img {
+    width: 200px; /* Ajusta según sea necesario */
+    height: 4cm;
+}
+body {
+    background-color: #57c045; /* Color de fondo */
+    margin: 0; /* Eliminar márgenes predeterminados */
+    font-family: 'Arial', sans-serif; /* Fuente del texto */
+}
+
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 50px auto; /* Centrando el contenedor con márgenes automáticos */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    background-color: #c5e2f8; /* Color de fondo del contenedor */
+}
+
+h1 {
+    color: #2c3e50; /* Color del título */
+    text-align: center; /* Centrar el texto del título */
+    font-size: 2.5em; /* Tamaño de la fuente del título */
+}
+
+p {
+    color: #34495e; /* Color del texto del párrafo */
+    line-height: 1.6; /* Espaciado entre líneas */
+    font-size: 1.2em; /* Tamaño de la fuente del párrafo */
+}
+
+title {
+  text-align: center;
+  color: #34495e;
+}
